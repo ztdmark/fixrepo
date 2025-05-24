@@ -427,6 +427,36 @@ function App() {
 
         <section className="section-container py-16 px-4 sm:px-6 lg:px-8 bg-[#f8fafa] relative">
           <div className="max-w-7xl mx-auto">
+            <h2 className="text-3xl font-bold text-center text-[#124C56] mb-6">
+              What is the R&D Tax Credit?
+            </h2>
+            <p className="text-lg text-center text-[#64748B] mb-12 max-w-3xl mx-auto">
+              The R&D Tax Credit rewards businesses for developing new or improved products and processes. 
+              It directly reduces your tax liability — putting real cash savings back into your business.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
+                <Briefcase className="w-8 h-8 text-[#124C56]" />
+                <p className="text-[#1E293B]">Available to businesses of any size</p>
+              </div>
+              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
+                <DollarSign className="w-8 h-8 text-[#124C56]" />
+                <p className="text-[#1E293B]">Covers wages, supplies, and research contractors</p>
+              </div>
+              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
+                <FileText className="w-8 h-8 text-[#124C56]" />
+                <p className="text-[#1E293B]">Claim retroactively for past work</p>
+              </div>
+              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
+                <Globe className="w-8 h-8 text-[#124C56]" />
+                <p className="text-[#1E293B]">Available across all industries</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-container py-16 px-4 sm:px-6 lg:px-8 bg-[#f8fafa] relative">
+          <div className="max-w-7xl mx-auto">
             <h2 className="text-3xl font-bold text-center text-[#1E293B] mb-12">
               Trusted By Businesses Nationwide
             </h2>
@@ -452,36 +482,6 @@ function App() {
                 icon={Clock}
                 duration={4}
               />
-            </div>
-          </div>
-        </section>
-
-        <section className="section-container py-16 px-4 sm:px-6 lg:px-8 bg-[#f8fafa] relative">
-          <div className="max-w-7xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-[#124C56] mb-6">
-              What is the R&D Tax Credit?
-            </h2>
-            <p className="text-lg text-center text-[#64748B] mb-12 max-w-3xl mx-auto">
-              The R&D Tax Credit rewards businesses for developing new or improved products and processes. 
-              It directly reduces your tax liability — putting real cash savings back into your business.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
-                <Briefcase className="w-8 h-8 text-[#124C56]" />
-                <p className="text-[#1E293B]">Available to businesses of any size</p>
-              </div>
-              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
-                <DollarSign className="w-8 h-8 text-[#124C56]" />
-                <p className="text-[#1E293B]">Covers wages, supplies, and research contractors</p>
-              </div>
-              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
-                <FileText className="w-8 h-8 text-[#124C56]" />
-                <p className="text-[#1E293B]">Claim retroactively for past work</p>
-              </div>
-              <div className="flex items-center gap-4 p-6 bg-white rounded-lg shadow-sm">
-                <Globe className="w-8 h-8 text-[#124C56]" />
-                <p className="text-[#1E293B]">Available across all industries</p>
-              </div>
             </div>
           </div>
         </section>
